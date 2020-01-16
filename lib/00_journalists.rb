@@ -17,7 +17,7 @@ end
 
 def question3(journalist)
 	puts "Combien d'handle contiennent les 4 lettres du prénom Aude à la suite (sans prendre en compte les majuscules) ?		"
-	puts journalist.grep(/aude/) #2
+	puts journalist.grep(/aude/).length #2
 		# @TGiraudet
 		# @MaudeML
 end
